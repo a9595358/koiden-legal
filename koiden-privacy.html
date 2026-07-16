@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koiden 隱私權政策 / Privacy Policy</title>
+<style>
+  :root {
+    --ink: #1c1c1e;
+    --sub: #5b5b5f;
+    --line: #e6e2d8;
+    --bg: #fbfaf7;
+    --card: #ffffff;
+    --accent: #7b4fcf;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang TC", "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(160deg, #fbfaf7 0%, #ece6da 100%);
+    color: var(--ink);
+    line-height: 1.75;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 56px 24px 100px; }
+  header { margin-bottom: 40px; }
+  h1 { font-size: 30px; margin: 0 0 8px; letter-spacing: -0.02em; }
+  .meta { color: var(--sub); font-size: 14px; }
+  .lang-toggle {
+    display: flex; gap: 8px; margin-top: 20px;
+  }
+  .lang-toggle button {
+    border: 1px solid var(--line); background: var(--card); color: var(--ink);
+    padding: 6px 16px; border-radius: 999px; font-size: 13px; cursor: pointer;
+  }
+  .lang-toggle button.active { background: var(--ink); color: #fff; border-color: var(--ink); }
+  section.card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    padding: 28px 32px;
+    margin-bottom: 18px;
+  }
+  h2 { font-size: 18px; margin: 0 0 10px; }
+  h2 .num { color: var(--accent); margin-right: 6px; }
+  p { margin: 0 0 12px; font-size: 15px; color: #2a2a2c; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  li { margin-bottom: 6px; font-size: 15px; }
+  .highlight {
+    background: #f4f0ff;
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #3a2a63;
+    margin-bottom: 12px;
+  }
+  footer { color: var(--sub); font-size: 13px; margin-top: 32px; text-align: center; }
+  .en { display: none; }
+  body.show-en .zh { display: none; }
+  body.show-en .en { display: block; }
+  a { color: var(--accent); }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0 14px; font-size: 14px; }
+  th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--sub); font-weight: 600; width: 34%; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1 class="zh">Koiden 隱私權政策</h1>
+    <h1 class="en">Koiden Privacy Policy</h1>
+    <div class="meta zh">最後更新日期：2026 年 7 月 15 日</div>
+    <div class="meta en">Last updated: July 15, 2026</div>
+    <div class="lang-toggle">
+      <button id="btn-zh" class="active" onclick="setLang('zh')">繁體中文</button>
+      <button id="btn-en" onclick="setLang('en')">English</button>
+    </div>
+  </header>
+
+  <div class="zh">
+    <div class="highlight">
+      一句話版本：Koiden 是一支「幾乎所有資料都留在你自己電腦裡」的工具，我們沒有自己的伺服器來存放你的商品照片、工藝單或客戶資料；訂閱付款完全由 Apple／App Store 處理，我們看不到你的信用卡資訊。
+    </div>
+
+    <section class="card">
+      <h2><span class="num">1.</span>適用範圍</h2>
+      <p>本隱私權政策說明「Koiden」（以下稱「本 App」）在你使用 Mac App Store 上架版本時，我們會如何處理與你有關的資訊。使用本 App，即代表你同意本政策所述的做法。若你不同意，請不要使用本 App。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">2.</span>我們收集的資料非常有限</h2>
+      <p>本 App 的核心設計是「單機工具」：你建立的品牌資料庫（季度、SKU、工藝單、版型、水洗標、Logo 等所有內容）只會存在你自己選擇的資料夾裡（例如你的電腦硬碟，或你自己的 iCloud 雲端硬碟）。我們（開發者）沒有任何伺服器會接收、儲存或備份這些內容，我們也無法讀取這些檔案。</p>
+      <p>具體來說，我們不會收集：</p>
+      <ul>
+        <li>你的姓名、地址、電話等個人聯絡資訊（App 本身不需要註冊帳號）</li>
+        <li>你建立的商品資料、款式圖片、工藝單、供應商資料</li>
+        <li>你的裝置位置資訊</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">3.</span>訂閱與付款資訊</h2>
+      <p>本 App 透過 Apple 的 App Store（StoreKit）提供每月自動續訂訂閱。所有付款、帳單資訊（例如信用卡卡號）皆由 Apple 直接處理與保管，我們完全看不到、也不會儲存這些資訊。</p>
+      <p>我們只會透過 StoreKit 收到 Apple 提供、用來判斷「你是否有有效訂閱」的交易驗證資訊（例如訂閱是否生效、到期日），這些資訊只用在解鎖 App 功能上，不會被用於其他用途。</p>
+      <table>
+        <tr><th>資料類型</th><td>訂閱交易狀態（是否有效、到期日）</td></tr>
+        <tr><th>由誰處理</th><td>Apple Inc.（App Store / StoreKit）</td></tr>
+        <tr><th>用途</th><td>僅用於判斷 App 內功能是否解鎖</td></tr>
+        <tr><th>Apple 隱私權政策</th><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">4.</span>照片圖庫與檔案存取權限</h2>
+      <p>本 App 會請求「照片圖庫」的存取權限，僅用於：當你主動選擇要上傳的款式圖片、封面圖或 Logo 時讀取該張照片。我們不會在背景掃描你的整個照片圖庫，也不會把任何照片上傳到我們的伺服器（因為我們沒有伺服器）。</p>
+      <p>本 App 也會請求你選擇的資料夾（例如「Koiden 資料庫」）的讀寫權限，用來儲存與讀取你的品牌資料。這個權限僅限於你主動選擇的資料夾，App 不會存取你電腦上其他未經授權的檔案。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">5.</span>我們不做的事</h2>
+      <ul>
+        <li>不投放廣告，也不允許第三方在本 App 內投放廣告</li>
+        <li>不使用第三方分析、行為追蹤或廣告 SDK（例如不使用 Google Analytics、Facebook SDK 等）</li>
+        <li>不會將你的個人資料或使用內容出售、出租或分享給第三方行銷用途</li>
+        <li>不會跨 App／跨網站追蹤你，用於廣告目的（不涉及 App Tracking Transparency 追蹤）</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">6.</span>網路連線</h2>
+      <p>本 App 平時不需要網路連線也能運作（資料都在本機）。唯一會連網的情況是透過 Apple StoreKit 驗證你的訂閱狀態，這段連線是直接連到 Apple 的伺服器，不會經過我們。如果你把資料庫資料夾放在 iCloud 雲端硬碟裡，檔案同步是由 Apple 的 iCloud 服務處理，適用 Apple 自己的隱私權政策。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">7.</span>兒童隱私</h2>
+      <p>本 App 是提供給服飾品牌／企業用於產品開發管理的工具，並非設計給兒童使用，我們不會刻意收集 13 歲以下兒童的個人資料。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">8.</span>資料安全與你的控制權</h2>
+      <p>由於你的資料留在你自己選擇的位置，資料安全性主要取決於你自己裝置與帳號（例如你的 Mac 使用者密碼、iCloud 帳號安全性）的保護措施，建議你妥善保管登入密碼並定期備份資料夾。</p>
+      <p>你可以隨時透過刪除該資料夾來清除本 App 建立的所有內容；解除安裝本 App 本身也不會把你的資料庫資料夾一併刪除。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">9.</span>你的權利</h2>
+      <ul>
+        <li>你可以隨時透過「系統設定 → Apple ID → 訂閱項目」（或 App 內的「管理訂閱」按鈕）查看、變更或取消訂閱。</li>
+        <li>因為我們沒有蒐集你的個人資料，一般不會有「要求刪除我的個人資料」的情境；如果你仍希望聯絡我們詢問任何資料處理相關問題，歡迎透過下方聯絡方式與我們聯繫。</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">10.</span>政策修訂</h2>
+      <p>我們可能會不定期更新本政策，任何修改都會反映在本頁面並更新頁首的「最後更新日期」。若有重大變更，我們會盡合理努力透過 App 內公告或其他方式通知你。</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">11.</span>聯絡我們</h2>
+      <p>如果你對本隱私權政策或本 App 的資料處理方式有任何疑問，歡迎透過以下方式聯絡我們：</p>
+      <p>Email：<a href="mailto:a9595358@yahoo.com.tw">a9595358@yahoo.com.tw</a></p>
+    </section>
+  </div>
+
+  <div class="en">
+    <div class="highlight">
+      TL;DR: Koiden keeps virtually all of your data on your own computer. We don't operate any server that stores your product photos, tech packs, or business data. Subscription payments are handled entirely by Apple / the App Store — we never see your credit card information.
+    </div>
+
+    <section class="card">
+      <h2><span class="num">1.</span>Scope</h2>
+      <p>This Privacy Policy explains how "Koiden" (the "App") handles information related to you when you use the Mac App Store version. By using the App, you agree to the practices described in this policy. If you do not agree, please do not use the App.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">2.</span>What we collect (very little)</h2>
+      <p>Koiden is designed as a single-user, local-first tool. Your brand library (seasons, SKUs, tech packs, patterns, care labels, logos, and all related content) is stored only in a folder you choose — on your own Mac, or in your own iCloud Drive. We (the developer) do not operate any server that receives, stores, or backs up this content, and we cannot access these files.</p>
+      <p>Specifically, we do not collect:</p>
+      <ul>
+        <li>Your name, address, phone number, or other contact information (the App does not require account registration)</li>
+        <li>Product data, style images, tech packs, or supplier information you create</li>
+        <li>Your device location</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">3.</span>Subscription &amp; payment information</h2>
+      <p>The App offers a monthly auto-renewing subscription through Apple's App Store (StoreKit). All payment and billing details (such as credit card numbers) are handled and stored directly by Apple — we never see or store this information.</p>
+      <p>We only receive transaction verification data from StoreKit (such as whether your subscription is active and its expiration date), used solely to unlock features within the App.</p>
+      <table>
+        <tr><th>Data type</th><td>Subscription transaction status (active/expired, renewal date)</td></tr>
+        <tr><th>Processed by</th><td>Apple Inc. (App Store / StoreKit)</td></tr>
+        <tr><th>Purpose</th><td>Unlocking in-app features only</td></tr>
+        <tr><th>Apple's Privacy Policy</th><td><a href="https://www.apple.com/legal/privacy/">apple.com/legal/privacy</a></td></tr>
+      </table>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">4.</span>Photo library &amp; file access</h2>
+      <p>The App requests Photo Library access solely to let you pick a style image, cover photo, or logo when you choose to upload one. We do not scan your photo library in the background, and no photos are uploaded to any server (because we don't operate one).</p>
+      <p>The App also requests read/write access to a folder you choose (e.g. "Koiden Library") to store and read your brand data. This access is limited to the folder you explicitly select; the App does not access other files on your Mac without authorization.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">5.</span>What we don't do</h2>
+      <ul>
+        <li>No advertising, and no third parties are permitted to advertise within the App</li>
+        <li>No third-party analytics, behavioral tracking, or ad SDKs (e.g. no Google Analytics, no Facebook SDK)</li>
+        <li>We never sell, rent, or share your personal data or content for marketing purposes</li>
+        <li>No cross-app or cross-site tracking for advertising purposes</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">6.</span>Network access</h2>
+      <p>The App works offline for everyday use since your data lives locally. The only network activity is StoreKit verifying your subscription status directly with Apple's servers — this does not pass through us. If you store your library folder in iCloud Drive, syncing is handled by Apple's iCloud service, subject to Apple's own privacy policy.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">7.</span>Children's privacy</h2>
+      <p>The App is a product-development management tool intended for apparel brands and businesses. It is not directed at children, and we do not knowingly collect personal information from children under 13.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">8.</span>Data security &amp; your control</h2>
+      <p>Because your data stays where you choose to keep it, security largely depends on how you protect your own device and account (e.g. your Mac user password, iCloud account security). We recommend keeping your login credentials secure and backing up your library folder regularly.</p>
+      <p>You can delete all content created by the App at any time simply by deleting that folder. Uninstalling the App itself does not delete your library folder.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">9.</span>Your rights</h2>
+      <ul>
+        <li>You can view, change, or cancel your subscription anytime via System Settings → Apple ID → Subscriptions, or the "Manage Subscription" button in the App.</li>
+        <li>Since we don't collect your personal data, requests to "delete my personal data" generally don't apply here. If you have any questions about our data practices, feel free to contact us using the details below.</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">10.</span>Changes to this policy</h2>
+      <p>We may update this policy from time to time. Changes will be reflected on this page, with the "Last updated" date revised accordingly. For material changes, we'll make reasonable efforts to notify you via an in-app notice or other means.</p>
+    </section>
+
+    <section class="card">
+      <h2><span class="num">11.</span>Contact us</h2>
+      <p>If you have any questions about this Privacy Policy or how the App handles data, please contact us:</p>
+      <p>Email: <a href="mailto:a9595358@yahoo.com.tw">a9595358@yahoo.com.tw</a></p>
+    </section>
+  </div>
+
+  <footer class="zh">本頁面僅供一般參考，不構成法律意見。建議在正式上架前請律師協助審閱，確保符合你實際的商業模式與適用法規（例如 GDPR、台灣個資法）。</footer>
+  <footer class="en">This page is provided for general reference only and does not constitute legal advice. We recommend having a lawyer review it before launch to ensure it matches your actual business practices and applicable laws (e.g. GDPR, Taiwan's Personal Data Protection Act).</footer>
+</div>
+<script>
+  function setLang(lang) {
+    document.body.classList.toggle('show-en', lang === 'en');
+    document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+  }
+</script>
+</body>
+</html>
